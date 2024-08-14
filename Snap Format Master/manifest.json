@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Snap Format Master",
+  "version": "1.0",
+  "description": "A browser extension Save images in different formats (JPG, PNG, WebP, GIF)",
+  "permissions": ["contextMenus", "scripting", "downloads", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "128": "icons/img.png"
+  },
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "128": "icons/img.png"
+    }
+  }
+}
